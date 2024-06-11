@@ -17,9 +17,8 @@ Link: https://tecjobs-web.onrender.com/index.html
 <ul>
   <li>Gestão do Projeto (Rafael)</li>
   <li>Design (Arthur)</li>
-  <li>Documentação (Samuel e Victor)</li>
-  <li>Front-End (Arthur, Samuel)</li>
-  <li>Back-End / Front-End (Victor)</li>
+  <li>Documentação (Victor)</li>
+  <li>Front-End (Samuel)</li>
 </ul>
 
 # Criando o projeto:
