@@ -6,13 +6,13 @@ Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenv
 Link: https://tecjobs-web.onrender.com/index.html
 
 <div>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 56](https://github.com/RaffDevs/tecjobs2/assets/136899628/26b2c7fc-9bac-438c-96df-94ecd1ed2ec8)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 55](https://github.com/RaffDevs/tecjobs2/assets/136899628/4868ac4a-87f9-4945-8c4c-3a01b06aaf59)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 55 (1)](https://github.com/RaffDevs/tecjobs2/assets/136899628/43c05817-bbcc-49e8-bac1-9e97fd88e930)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 54](https://github.com/RaffDevs/tecjobs2/assets/136899628/b76e248c-05fa-4e79-b15f-57f606aa2469)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 55 (2)](https://github.com/RaffDevs/tecjobs2/assets/136899628/49aecb55-0958-4cdc-81ef-a9a7bd666a59)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 56 (1)](https://github.com/RaffDevs/tecjobs2/assets/136899628/c4838602-53fb-468e-8e2d-6f6bc388ebe9)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 56 (2)](https://github.com/RaffDevs/tecjobs2/assets/136899628/3c0f84ee-b626-4757-9ab9-6976237dce7d)" alt="drawing" width="600"/>
+  <img src="![WhatsApp Image 2024-06-12 at 16 36 56](https://github.com/RaffDevs/tecjobs2/assets/136899628/a2e12a5a-80c6-49bf-9c74-6fe8858c5a7e)" alt="drawing" width="600"/>
+  <img src="" alt="drawing" width="600"/>
+  <img src="" alt="drawing" width="600"/>
+  <img src="" width="600"/>
+  <img src="" alt="drawing" width="600"/>
+  <img src="" alt="drawing" width="600"/>
+  <img src="" alt="drawing" width="600"/>
 </div>
 
 # Etapas do projeto:
