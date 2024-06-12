@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-06-12 at 16 36 56 (2)](https://github.com/RaffDevs/tecjobs2/assets/136899628/faf38b6f-65ee-4aae-a846-0253a4d50c91)#  🔹TecJobs - PI/DSM 2° Período 💻🔹
+#  🔹TecJobs - PI/DSM 2° Período 💻🔹
 Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenvolvimento de Software Multiplataforma da Fatec Franca. O projeto em questão se trata de um portal de estágios para os alunos da universidade.
 
 <strong>Obs: A api está hospedada no Render, no plano gratuíto. Por padrão, a plataforma deixa o serviço "dormindo" quando não está sendo usado, e quando é solicitado "desperta" o serviço novamente. Dado isso, caso ao acessar, as vagas não sejam carregadas ou demorem, é necessário recarregar a página para que a requisição possa reativar o serviço.</strong>
@@ -6,13 +6,11 @@ Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenv
 Link: https://tecjobs-web.onrender.com/index.html
 
 <div>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 56](https://github.com/RaffDevs/tecjobs2/assets/136899628/8d51667a-d45c-47d3-8527-71b126fcbaf7)" alt="drawing" width="600"/>
-  <img src="" alt="drawing" width="600"/>
-  <img src="" alt="drawing" width="600"/>
-  <img src="" width="600"/>
-  <img src="" alt="drawing" width="600"/>
-  <img src="" alt="drawing" width="600"/>
-  <img src="" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/89497a47-5b98-41e5-9738-ac5adb5c4325" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/9cc1fa08-f435-4f74-b84e-a9bb27611997" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/78aba66c-94da-4829-9307-1e50955a2eb8" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/e2d5507e-86d5-47f8-8125-aa7f62275f89" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/9621bdfa-8ffe-40f3-8cd6-3eb77c628e83" alt="drawing" width="600"/>
 </div>
 
 # Etapas do projeto:
