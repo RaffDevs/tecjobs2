@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-06-12 at 16 36 56 (2)](https://github.com/RaffDevs/tecjobs2/assets/136899628/faf38b6f-65ee-4aae-a846-0253a4d50c91)#  🔹TecJobs - PI/DSM 2° Período 💻🔹
+#  🔹TecJobs - PI/DSM 2° Período 💻🔹
 Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenvolvimento de Software Multiplataforma da Fatec Franca. O projeto em questão se trata de um portal de estágios para os alunos da universidade.
 
 <strong>Obs: A api está hospedada no Render, no plano gratuíto. Por padrão, a plataforma deixa o serviço "dormindo" quando não está sendo usado, e quando é solicitado "desperta" o serviço novamente. Dado isso, caso ao acessar, as vagas não sejam carregadas ou demorem, é necessário recarregar a página para que a requisição possa reativar o serviço.</strong>
@@ -6,13 +6,11 @@ Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenv
 Link: https://tecjobs-web.onrender.com/index.html
 
 <div>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 56](https://github.com/RaffDevs/tecjobs2/assets/136899628/26b2c7fc-9bac-438c-96df-94ecd1ed2ec8)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 55](https://github.com/RaffDevs/tecjobs2/assets/136899628/4868ac4a-87f9-4945-8c4c-3a01b06aaf59)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 55 (1)](https://github.com/RaffDevs/tecjobs2/assets/136899628/43c05817-bbcc-49e8-bac1-9e97fd88e930)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 54](https://github.com/RaffDevs/tecjobs2/assets/136899628/b76e248c-05fa-4e79-b15f-57f606aa2469)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 55 (2)](https://github.com/RaffDevs/tecjobs2/assets/136899628/49aecb55-0958-4cdc-81ef-a9a7bd666a59)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 56 (1)](https://github.com/RaffDevs/tecjobs2/assets/136899628/c4838602-53fb-468e-8e2d-6f6bc388ebe9)" alt="drawing" width="600"/>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 56 (2)](https://github.com/RaffDevs/tecjobs2/assets/136899628/3c0f84ee-b626-4757-9ab9-6976237dce7d)" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/89497a47-5b98-41e5-9738-ac5adb5c4325" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/9cc1fa08-f435-4f74-b84e-a9bb27611997" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/78aba66c-94da-4829-9307-1e50955a2eb8" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/e2d5507e-86d5-47f8-8125-aa7f62275f89" alt="drawing" width="600"/>
+  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/9621bdfa-8ffe-40f3-8cd6-3eb77c628e83" alt="drawing" width="600"/>
 </div>
 
 # Etapas do projeto:
