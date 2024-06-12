@@ -6,7 +6,7 @@ Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenv
 Link: https://tecjobs-web.onrender.com/index.html
 
 <div>
-  <img src="![WhatsApp Image 2024-06-12 at 16 36 56](https://github.com/RaffDevs/tecjobs2/assets/136899628/a2e12a5a-80c6-49bf-9c74-6fe8858c5a7e)" alt="drawing" width="600"/>
+  <img src="![WhatsApp Image 2024-06-12 at 16 36 56](https://github.com/RaffDevs/tecjobs2/assets/136899628/8d51667a-d45c-47d3-8527-71b126fcbaf7)" alt="drawing" width="600"/>
   <img src="" alt="drawing" width="600"/>
   <img src="" alt="drawing" width="600"/>
   <img src="" width="600"/>
