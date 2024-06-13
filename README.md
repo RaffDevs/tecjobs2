@@ -7,13 +7,16 @@ Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenv
 Link: [TecJobs](https://tecjobs-web.onrender.com/index.html)
 
 <div>
-  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/4d8dc211-9312-423a-9250-23164d381fd9" alt="drawing" width="600"/>
-  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/bca35b6b-7eff-4f5c-972e-e9d37dba4e59" alt="drawing" width="600"/>
-  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/f067b8de-d853-40f8-b369-2d14f9797c10" alt="drawing" width="600"/>
-  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/0ac50183-ee75-4c49-9261-02a56b63a887" alt="drawing" width="600"/>
-  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/687bdd53-8d04-489a-9177-6b1bb58c820f" alt="drawing" width="600"/>
-  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/38bb01ed-4b3d-4cb9-a265-ed51387eb890" alt="drawing" width="600"/>
-  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/23d19ac2-07e2-4c09-adf1-bc92e2bfe2c5" alt="drawing" width="600"/>
+
+
+![WhatsApp Image 2024-06-12 at 23 37 15](https://github.com/RaffDevs/tecjobs2/assets/56967435/cddfc6b0-f2ab-4e9d-a148-201826e4e99d)
+![WhatsApp Image 2024-06-12 at 23 37 15 (1)](https://github.com/RaffDevs/tecjobs2/assets/56967435/0cbee467-ed33-4bfd-bbed-51caa779d882)
+![WhatsApp Image 2024-06-12 at 23 37 15 (2)](https://github.com/RaffDevs/tecjobs2/assets/56967435/89c894e7-829b-42b9-8fa2-7926e0fa1a8b)
+![WhatsApp Image 2024-06-12 at 23 37 15 (3)](https://github.com/RaffDevs/tecjobs2/assets/56967435/b5be854a-ff9f-4955-a751-a9179c37fb76)
+![WhatsApp Image 2024-06-12 at 23 37 14](https://github.com/RaffDevs/tecjobs2/assets/56967435/29644608-fe19-4a6e-bc9d-48637b888580)
+![WhatsApp Image 2024-06-12 at 23 37 14 (1)](https://github.com/RaffDevs/tecjobs2/assets/56967435/d8eadb72-9d48-4484-bd8c-1dba688df886)
+![WhatsApp Image 2024-06-12 at 23 37 14 (2)](https://github.com/RaffDevs/tecjobs2/assets/56967435/486e8f1e-8bcd-4054-90e8-4745a28b96ff)
+
   <img src="https://github.com/RaffDevs/tecjobs2/assets/136899628/19bb6a6b-657c-4972-950d-7a46ebfeb9de" alt="drawing" width="600"/>
 </div>
 
