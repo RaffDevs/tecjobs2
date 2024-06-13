@@ -113,7 +113,11 @@ Foi utilizado Node.js e Express para a criação do backend. A aplicação foi h
 
 **Documentação da API:**
 <img src="https://github.com/RaffDevs/tecjobs2/assets/136899628/d08dae68-722c-4983-80c0-63795b70ae95" alt="drawing" width="600"/>
+<BR>
+<BR>
+
 Link da doc: https://backend-pi-node.onrender.com/api-docs/#/
+<BR>
 API: https://backend-pi-node.onrender.com/
 
 
