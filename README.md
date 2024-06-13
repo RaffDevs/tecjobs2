@@ -6,9 +6,13 @@ Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenv
 Link: https://tecjobs-web.onrender.com/index.html
 
 <div>
-  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/78aba66c-94da-4829-9307-1e50955a2eb8" alt="drawing" width="600"/>
-  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/e2d5507e-86d5-47f8-8125-aa7f62275f89" alt="drawing" width="600"/>
-  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/9621bdfa-8ffe-40f3-8cd6-3eb77c628e83" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/4d8dc211-9312-423a-9250-23164d381fd9" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/bca35b6b-7eff-4f5c-972e-e9d37dba4e59" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/f067b8de-d853-40f8-b369-2d14f9797c10" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/0ac50183-ee75-4c49-9261-02a56b63a887" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/687bdd53-8d04-489a-9177-6b1bb58c820f" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/38bb01ed-4b3d-4cb9-a265-ed51387eb890" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/23d19ac2-07e2-4c09-adf1-bc92e2bfe2c5" alt="drawing" width="600"/>
 </div>
 
 # Etapas do projeto:
