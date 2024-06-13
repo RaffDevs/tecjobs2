@@ -4,7 +4,7 @@ Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenv
 
 **Obs: A API está hospedada no Render, no plano gratuito. Por padrão, a plataforma deixa o serviço "dormindo" quando não está sendo usado e, quando solicitado, "desperta" o serviço novamente. Dado isso, caso ao acessar, as vagas não sejam carregadas ou demorem, é necessário recarregar a página para que a requisição possa reativar o serviço.**
 
-Link: [TecJobs](https://tecjobs-web.onrender.com/index.html)
+Link: [TecJobs](https://tecjobs2.onrender.com)
 
 <div>
 
