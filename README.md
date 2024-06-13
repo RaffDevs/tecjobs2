@@ -17,6 +17,10 @@ Link: [TecJobs](https://tecjobs2.onrender.com)
 ![WhatsApp Image 2024-06-12 at 23 37 14 (1)](https://github.com/RaffDevs/tecjobs2/assets/56967435/d8eadb72-9d48-4484-bd8c-1dba688df886)
 ![WhatsApp Image 2024-06-12 at 23 37 14 (2)](https://github.com/RaffDevs/tecjobs2/assets/56967435/486e8f1e-8bcd-4054-90e8-4745a28b96ff)
 
+
+https://github.com/RaffDevs/tecjobs2/assets/56967435/eef6f06b-a9bd-415e-a63e-cb663d669003
+
+
   <img src="https://github.com/RaffDevs/tecjobs2/assets/136899628/19bb6a6b-657c-4972-950d-7a46ebfeb9de" alt="drawing" width="600"/>
 </div>
 
