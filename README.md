@@ -1,77 +1,124 @@
-#  🔹TecJobs - PI/DSM 2° Período 💻🔹
+# 🔹 TecJobs - PI/DSM 2° Período 💻🔹
+
 Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenvolvimento de Software Multiplataforma da Fatec Franca. O projeto em questão se trata de um portal de estágios para os alunos da universidade.
 
-<strong>Obs: A api está hospedada no Render, no plano gratuíto. Por padrão, a plataforma deixa o serviço "dormindo" quando não está sendo usado, e quando é solicitado "desperta" o serviço novamente. Dado isso, caso ao acessar, as vagas não sejam carregadas ou demorem, é necessário recarregar a página para que a requisição possa reativar o serviço.</strong>
+**Obs: A API está hospedada no Render, no plano gratuito. Por padrão, a plataforma deixa o serviço "dormindo" quando não está sendo usado e, quando solicitado, "desperta" o serviço novamente. Dado isso, caso ao acessar, as vagas não sejam carregadas ou demorem, é necessário recarregar a página para que a requisição possa reativar o serviço.**
 
-Link: https://tecjobs-web.onrender.com/index.html
+Link: [TecJobs](https://tecjobs-web.onrender.com/index.html)
 
 <div>
-  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/89497a47-5b98-41e5-9738-ac5adb5c4325" alt="drawing" width="600"/>
-  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/9cc1fa08-f435-4f74-b84e-a9bb27611997" alt="drawing" width="600"/>
-  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/78aba66c-94da-4829-9307-1e50955a2eb8" alt="drawing" width="600"/>
-  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/e2d5507e-86d5-47f8-8125-aa7f62275f89" alt="drawing" width="600"/>
-  <img src="https://github.com/RaffDevs/tech-jobs/assets/56967435/9621bdfa-8ffe-40f3-8cd6-3eb77c628e83" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/4d8dc211-9312-423a-9250-23164d381fd9" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/bca35b6b-7eff-4f5c-972e-e9d37dba4e59" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/f067b8de-d853-40f8-b369-2d14f9797c10" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/0ac50183-ee75-4c49-9261-02a56b63a887" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/687bdd53-8d04-489a-9177-6b1bb58c820f" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/38bb01ed-4b3d-4cb9-a265-ed51387eb890" alt="drawing" width="600"/>
+  <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/23d19ac2-07e2-4c09-adf1-bc92e2bfe2c5" alt="drawing" width="600"/>
 </div>
 
-# Etapas do projeto:
-<ul>
-  <li>Gestão do Projeto (Rafael)</li>
-  <li>Design (Arthur)</li>
-  <li>Documentação (Victor)</li>
-  <li>Front-End (Samuel)</li>
-</ul>
+## Etapas do projeto:
 
-# Criando o projeto:
+- **Gestão do Projeto:** Rafael
+- **Banco de Dados Relacional:** Arthur
+- **Documentação e Backend:** Victor
+- **Front-End:** Samuel
 
-### 1 - Design 🎨
-[x] - Escolha da paleta de cores
+## Criando o projeto:
 
-[x] - Criação da identidade visual da marca TecJobs
+### 1 - Banco de Dados Relacional 🎨
 
-[x] - Prototipação das telas
-<ul>
-  <li>Tela Inicial</li>
-  <li>Tela Sobre Nós</li>
-  <li>Tela Sobre Fatec Franca</li>
-  <li>Tela Detalhamento da vaga</li>
-  <li>Tela do cadastro de email para receber novas vagas.</li>
-</ul>
+Criação do banco de dados usando um banco do Microsoft Azure MySQL com as tabelas de vaga, emprego e usuários.
 
-Referências:
+## Tabela `usuario`
 
-Site Hard Franca - https://hardfranca.com.br/anuncios.php
+```sql
+CREATE TABLE usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,<BR>
+    login VARCHAR(50) UNIQUE NOT NULL,<BR>
+    senha VARCHAR(255) NOT NULL<BR>
+);
 
-Site Vagas UX - https://vagasux.com.br/
+```
+## Tabela `emprego`
 
-Portal de estágios USP - https://estagios.fflch.usp.br/
+```sql
+CREATE TABLE emprego (<BR>
+    id INT AUTO_INCREMENT PRIMARY KEY,<BR>
+    nome_empresa VARCHAR(100) NOT NULL,<BR>
+    setor VARCHAR(100),<BR>
+    localizacao VARCHAR(100),<BR>
+    telefone VARCHAR(20),<BR>
+    email VARCHAR(100)<BR>
+);
+```
+
+## Tabela `vaga`
+
+```sql
+CREATE TABLE vaga (<BR>
+    id INT AUTO_INCREMENT PRIMARY KEY,<BR>
+    titulo VARCHAR(100) NOT NULL,<BR>
+    descricao TEXT NOT NULL,<BR>
+    salario DECIMAL(10, 2),<BR>
+    localizacao VARCHAR(100),<BR>
+    requisitos TEXT,<BR>
+    data_publicacao DATE,<BR>
+    emprego_id INT,<BR>
+    link VARCHAR(255),<BR>
+    FOREIGN KEY (emprego_id) REFERENCES emprego(id)<BR>
+);
+```
+
+## Conexão do banco
+
+```
+const mysql = require('mysql2');
+
+const pool = mysql.createPool({<BR>
+  host: 'mysqltrabalho.mysql.database.azure.com',<BR>
+  user: 'arthur',<BR>
+  password: '741258ar@',<BR>
+  database: 'pi',<BR>
+  port: 3306,<BR>
+  waitForConnections: true,<BR>
+  connectionLimit: 10,<BR>
+  queueLimit: 0<BR>
+});
+
+module.exports = pool.promise();<BR>
+```
 
 ### 2 - Documentação 📚
-[X] - Criação do RUP do projeto
+
+- [X] Criação do RUP do projeto
+Link da documentação: [RUP PI TecJobs _ Entrega Final.pdf](https://github.com/user-attachments/files/15812266/RUP.PI.TecJobs._.Entrega.Final.pdf)
 
 ### 3 - Front-End 📄
-[X] - Criação do HTML das páginas
 
-[X] - Criação do CSS das páginas
+Foi utlizado HTML, CSS, Javascript e Angular na criação da aplicação.
 
-[X] - Criação do JS das páginas
+**Páginas:**
 
-Páginas:
-<ul>
-  <li>Tela Inicial</li>
-  <li>Tela Sobre Nós</li>
-  <li>Tela Sobre Fatec Franca</li>
-  <li>Tela Detalhamento da vaga</li>
-  <li>Tela do cadastro de email para receber novas vagas.</li>
-</ul>
+- Tela Inicial
+- Tela Sobre Nós
+- Tela Sobre Fatec Franca
+- Tela Detalhamento da Vaga
+- Tela de Cadastro de E-mail para Receber Novas Vagas
 
-### 3 - Back-End 💻
-[X] - Implementar integração com API
+### 4 - Back-End 💻
 
-[X] - CRUD backend (C# / Asp Net Core)
+Foi utilizado Node.js e Express para a criação do backend. A aplicação foi hospedada no Render e faz uma conexão com o banco de dados Azure.
+<BR>
+<BR>
+<img src="https://github.com/RaffDevs/tecjobs2/assets/136899628/d08dae68-722c-4983-80c0-63795b70ae95" alt="drawing" width="600"/>
+<BR>
+<BR>
+**Documentação da API:**
 
-[X] - Autenticação JWT
+Link da doc: https://backend-pi-node.onrender.com/api-docs/#/
+<BR>
+API: https://backend-pi-node.onrender.com/
 
-[X] - Deploy no Render
 
 
 
