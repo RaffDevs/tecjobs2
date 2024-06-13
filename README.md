@@ -36,11 +36,12 @@ CREATE TABLE usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,<BR>
     login VARCHAR(50) UNIQUE NOT NULL,<BR>
     senha VARCHAR(255) NOT NULL<BR>
-);<BR>
+);
 
+```
 ## Tabela `emprego`
 
-sql
+```sql
 CREATE TABLE emprego (<BR>
     id INT AUTO_INCREMENT PRIMARY KEY,<BR>
     nome_empresa VARCHAR(100) NOT NULL,<BR>
@@ -49,10 +50,11 @@ CREATE TABLE emprego (<BR>
     telefone VARCHAR(20),<BR>
     email VARCHAR(100)<BR>
 );
+```
 
 ## Tabela `vaga`
 
-sql
+```sql
 CREATE TABLE vaga (<BR>
     id INT AUTO_INCREMENT PRIMARY KEY,<BR>
     titulo VARCHAR(100) NOT NULL,<BR>
@@ -65,9 +67,11 @@ CREATE TABLE vaga (<BR>
     link VARCHAR(255),<BR>
     FOREIGN KEY (emprego_id) REFERENCES emprego(id)<BR>
 );
+```
 
 ## Conexão do banco
 
+```
 const mysql = require('mysql2');
 
 const pool = mysql.createPool({<BR>
@@ -82,7 +86,7 @@ const pool = mysql.createPool({<BR>
 });
 
 module.exports = pool.promise();<BR>
-
+```
 
 ### 2 - Documentação 📚
 
