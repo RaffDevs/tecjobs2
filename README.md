@@ -1,9 +1,10 @@
-#  🔹TecJobs - PI/DSM 2° Período 💻🔹
+# 🔹 TecJobs - PI/DSM 2° Período 💻🔹
+
 Repositório do trabalho de PI dos estudantes do 2° período do curso de Desenvolvimento de Software Multiplataforma da Fatec Franca. O projeto em questão se trata de um portal de estágios para os alunos da universidade.
 
-<strong>Obs: A api está hospedada no Render, no plano gratuíto. Por padrão, a plataforma deixa o serviço "dormindo" quando não está sendo usado, e quando é solicitado "desperta" o serviço novamente. Dado isso, caso ao acessar, as vagas não sejam carregadas ou demorem, é necessário recarregar a página para que a requisição possa reativar o serviço.</strong>
+**Obs: A API está hospedada no Render, no plano gratuito. Por padrão, a plataforma deixa o serviço "dormindo" quando não está sendo usado e, quando solicitado, "desperta" o serviço novamente. Dado isso, caso ao acessar, as vagas não sejam carregadas ou demorem, é necessário recarregar a página para que a requisição possa reativar o serviço.**
 
-Link: https://tecjobs-web.onrender.com/index.html
+Link: [TecJobs](https://tecjobs-web.onrender.com/index.html)
 
 <div>
   <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/4d8dc211-9312-423a-9250-23164d381fd9" alt="drawing" width="600"/>
@@ -15,65 +16,96 @@ Link: https://tecjobs-web.onrender.com/index.html
   <img src="https://github.com/victorsoaresho/Colinhas-Nets/assets/136899628/23d19ac2-07e2-4c09-adf1-bc92e2bfe2c5" alt="drawing" width="600"/>
 </div>
 
-# Etapas do projeto:
-<ul>
-  <li>Gestão do Projeto (Rafael)</li>
-  <li>Design (Arthur)</li>
-  <li>Documentação (Victor)</li>
-  <li>Front-End (Samuel)</li>
-</ul>
+## Etapas do projeto:
 
-# Criando o projeto:
+- **Gestão do Projeto:** Rafael
+- **Banco de Dados Relacional:** Arthur
+- **Documentação e Backend:** Victor
+- **Front-End:** Samuel
 
-### 1 - Design 🎨
-[x] - Escolha da paleta de cores
+## Criando o projeto:
 
-[x] - Criação da identidade visual da marca TecJobs
+### 1 - Banco de Dados Relacional 🎨
 
-[x] - Prototipação das telas
-<ul>
-  <li>Tela Inicial</li>
-  <li>Tela Sobre Nós</li>
-  <li>Tela Sobre Fatec Franca</li>
-  <li>Tela Detalhamento da vaga</li>
-  <li>Tela do cadastro de email para receber novas vagas.</li>
-</ul>
+Criação do banco de dados usando um banco do Microsoft Azure MySQL com as tabelas de vaga, emprego e usuários.
 
-Referências:
+## Tabela `usuario`
 
-Site Hard Franca - https://hardfranca.com.br/anuncios.php
+sql
+CREATE TABLE usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    login VARCHAR(50) UNIQUE NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
 
-Site Vagas UX - https://vagasux.com.br/
+## Tabela `emprego`
 
-Portal de estágios USP - https://estagios.fflch.usp.br/
+sql
+CREATE TABLE emprego (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_empresa VARCHAR(100) NOT NULL,
+    setor VARCHAR(100),
+    localizacao VARCHAR(100),
+    telefone VARCHAR(20),
+    email VARCHAR(100)
+);
+
+## Tabela `vaga`
+
+sql
+CREATE TABLE vaga (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(100) NOT NULL,
+    descricao TEXT NOT NULL,
+    salario DECIMAL(10, 2),
+    localizacao VARCHAR(100),
+    requisitos TEXT,
+    data_publicacao DATE,
+    emprego_id INT,
+    link VARCHAR(255),
+    FOREIGN KEY (emprego_id) REFERENCES emprego(id)
+);
+
+## Conexão do banco
+
+const mysql = require('mysql2');
+
+const pool = mysql.createPool({
+  host: 'mysqltrabalho.mysql.database.azure.com',
+  user: 'arthur',
+  password: '741258ar@',
+  database: 'pi',
+  port: 3306,
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
+});
+
+module.exports = pool.promise();
+
 
 ### 2 - Documentação 📚
-[X] - Criação do RUP do projeto
+
+- [X] Criação do RUP do projeto
 
 ### 3 - Front-End 📄
-[X] - Criação do HTML das páginas
 
-[X] - Criação do CSS das páginas
+- [X] Criação do HTML das páginas
+- [X] Criação do CSS das páginas
+- [X] Criação do JS das páginas
 
-[X] - Criação do JS das páginas
+**Páginas:**
 
-Páginas:
-<ul>
-  <li>Tela Inicial</li>
-  <li>Tela Sobre Nós</li>
-  <li>Tela Sobre Fatec Franca</li>
-  <li>Tela Detalhamento da vaga</li>
-  <li>Tela do cadastro de email para receber novas vagas.</li>
-</ul>
+- Tela Inicial
+- Tela Sobre Nós
+- Tela Sobre Fatec Franca
+- Tela Detalhamento da Vaga
+- Tela de Cadastro de E-mail para Receber Novas Vagas
 
-### 3 - Back-End 💻
-[X] - Implementar integração com API
+### 4 - Back-End 💻
 
-[X] - CRUD backend (C# / Asp Net Core)
-
-[X] - Autenticação JWT
-
-[X] - Deploy no Render
-
+- [X] Implementar integração com API
+- [X] CRUD Backend (Node)
+- [X] Deploy no Render
 
 
