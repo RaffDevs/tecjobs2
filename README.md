@@ -32,56 +32,56 @@ Criação do banco de dados usando um banco do Microsoft Azure MySQL com as tabe
 ## Tabela `usuario`
 
 sql<BR>
-```CREATE TABLE usuario (```
-    ```id INT AUTO_INCREMENT PRIMARY KEY,```<BR>
-   ``` login VARCHAR(50) UNIQUE NOT NULL,```<BR>
-  ```  senha VARCHAR(255) NOT NULL```<BR>
-```);```<BR>
+CREATE TABLE usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,<BR>
+    login VARCHAR(50) UNIQUE NOT NULL,<BR>
+    senha VARCHAR(255) NOT NULL<BR>
+);<BR>
 
 ## Tabela `emprego`
 
 sql
-CREATE TABLE emprego (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome_empresa VARCHAR(100) NOT NULL,
-    setor VARCHAR(100),
-    localizacao VARCHAR(100),
-    telefone VARCHAR(20),
-    email VARCHAR(100)
+CREATE TABLE emprego (<BR>
+    id INT AUTO_INCREMENT PRIMARY KEY,<BR>
+    nome_empresa VARCHAR(100) NOT NULL,<BR>
+    setor VARCHAR(100),<BR>
+    localizacao VARCHAR(100),<BR>
+    telefone VARCHAR(20),<BR>
+    email VARCHAR(100)<BR>
 );
 
 ## Tabela `vaga`
 
 sql
-CREATE TABLE vaga (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    titulo VARCHAR(100) NOT NULL,
-    descricao TEXT NOT NULL,
-    salario DECIMAL(10, 2),
-    localizacao VARCHAR(100),
-    requisitos TEXT,
-    data_publicacao DATE,
-    emprego_id INT,
-    link VARCHAR(255),
-    FOREIGN KEY (emprego_id) REFERENCES emprego(id)
+CREATE TABLE vaga (<BR>
+    id INT AUTO_INCREMENT PRIMARY KEY,<BR>
+    titulo VARCHAR(100) NOT NULL,<BR>
+    descricao TEXT NOT NULL,<BR>
+    salario DECIMAL(10, 2),<BR>
+    localizacao VARCHAR(100),<BR>
+    requisitos TEXT,<BR>
+    data_publicacao DATE,<BR>
+    emprego_id INT,<BR>
+    link VARCHAR(255),<BR>
+    FOREIGN KEY (emprego_id) REFERENCES emprego(id)<BR>
 );
 
 ## Conexão do banco
 
 const mysql = require('mysql2');
 
-const pool = mysql.createPool({
-  host: 'mysqltrabalho.mysql.database.azure.com',
-  user: 'arthur',
-  password: '741258ar@',
-  database: 'pi',
-  port: 3306,
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0
+const pool = mysql.createPool({<BR>
+  host: 'mysqltrabalho.mysql.database.azure.com',<BR>
+  user: 'arthur',<BR>
+  password: '741258ar@',<BR>
+  database: 'pi',<BR>
+  port: 3306,<BR>
+  waitForConnections: true,<BR>
+  connectionLimit: 10,<BR>
+  queueLimit: 0<BR>
 });
 
-module.exports = pool.promise();
+module.exports = pool.promise();<BR>
 
 
 ### 2 - Documentação 📚
