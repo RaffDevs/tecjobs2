@@ -87,6 +87,7 @@ module.exports = pool.promise();<BR>
 ### 2 - Documentação 📚
 
 - [X] Criação do RUP do projeto
+Link da documentação: [RUP PI TecJobs _ Entrega Final.pdf](https://github.com/user-attachments/files/15812266/RUP.PI.TecJobs._.Entrega.Final.pdf)
 
 ### 3 - Front-End 📄
 
