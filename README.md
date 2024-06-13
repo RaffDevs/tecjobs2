@@ -107,9 +107,8 @@ Foi utlizado HTML, CSS, Javascript e Angular na criação da aplicação.
 
 ### 4 - Back-End 💻
 
-Foi utilizado Node, JS e express para a criação do backend.
-A Aplicação foi hospedada no render e faz uma conexão com o banco de dados azure, segue a imagem da documentação da api:
-<img src="https://github.com/RaffDevs/tecjobs2/assets/136899628/d08dae68-722c-4983-80c0-63795b70ae95" alt="drawing" width="600"/>
+Foi utilizado Node.js e Express para a criação do backend. A aplicação foi hospedada no Render e faz uma conexão com o banco de dados Azure.
+<img src="https://github.com/RaffDevs/tecjobs2/assets/136899628/d08dae68-722c-4983-80c0-63795b70ae95" alt="drawing" width="900"/>
 
 
 
