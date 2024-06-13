@@ -32,11 +32,11 @@ Criação do banco de dados usando um banco do Microsoft Azure MySQL com as tabe
 ## Tabela `usuario`
 
 sql
-CREATE TABLE usuario (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    login VARCHAR(50) UNIQUE NOT NULL,
-    senha VARCHAR(255) NOT NULL
-);
+```CREATE TABLE usuario (```
+    ```id INT AUTO_INCREMENT PRIMARY KEY,```
+   ``` login VARCHAR(50) UNIQUE NOT NULL,```
+  ```  senha VARCHAR(255) NOT NULL```
+```);```
 
 ## Tabela `emprego`
 
