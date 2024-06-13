@@ -109,7 +109,12 @@ Foi utlizado HTML, CSS, Javascript e Angular na criação da aplicação.
 
 Foi utilizado Node.js e Express para a criação do backend. A aplicação foi hospedada no Render e faz uma conexão com o banco de dados Azure.
 <BR>
+<BR>
+
+**Documentação da API:**
 <img src="https://github.com/RaffDevs/tecjobs2/assets/136899628/d08dae68-722c-4983-80c0-63795b70ae95" alt="drawing" width="600"/>
+Link da doc: https://backend-pi-node.onrender.com/api-docs/#/
+API: https://backend-pi-node.onrender.com/
 
 
 
