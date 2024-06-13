@@ -114,8 +114,6 @@ Foi utilizado Node.js e Express para a criação do backend. A aplicação foi h
 <BR>
 <BR>
 **Documentação da API:**
-<BR>
-<BR>
 
 Link da doc: https://backend-pi-node.onrender.com/api-docs/#/
 <BR>
