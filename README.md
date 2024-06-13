@@ -88,6 +88,9 @@ const pool = mysql.createPool({<BR>
 
 module.exports = pool.promise();<BR>
 ```
+## Modelo Lógico do Banco de Dados 
+
+![image](https://github.com/RaffDevs/tecjobs2/assets/141787340/ff0cbba7-46fd-4c1b-8818-c0ebb798e884)
 
 ### 2 - Documentação 📚
 
